@@ -17,7 +17,7 @@ export default class App extends Component<Props> {
       <View style={styles.container}>
       <View>
         <Judul/>
-        <Image source={require('./image1.jpg')} style={{width:300 , height:400}}/>
+        <Image source={require('./image.jpg')} style={{width:300 , height:400}}/>
         <Text style={styles.welcome}>Nama : Muhamad Bahtiar Anam</Text>
         <Text style={styles.welcome}>Kelas  : XI RPL 1</Text>
         <Text style={styles.welcome}>No       : 21</Text>
