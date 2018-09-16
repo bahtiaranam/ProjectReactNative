@@ -1,10 +1,14 @@
 import React, {Component} from 'react';
-import {Text} from 'react-native';
+import {Text, TextInput, View} from 'react-native';
+
 
 class Judul extends Component {
 	render(){
 		return(
-			<Text style={salon.Judul}>BIODATA</Text>
+			<View>
+			<Text style={salon.Judul}>{this.props.judul}</Text>
+			<TextInput/>
+			</View>
 		)
 	}
 

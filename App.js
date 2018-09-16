@@ -16,7 +16,7 @@ export default class App extends Component<Props> {
     return (
       <View style={styles.container}>
       <View>
-        <Judul/>
+        <Judul judul ="BIODATA"/>
         <Image source={require('./image.jpg')} style={{width:300 , height:400}}/>
         <Text style={styles.welcome}>Nama : Muhamad Bahtiar Anam</Text>
         <Text style={styles.welcome}>Kelas  : XI RPL 1</Text>
